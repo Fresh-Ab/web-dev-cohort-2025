@@ -43,7 +43,7 @@ nav a:hover {
 .hero {
     text-align: center;
     padding: 80px 20px;
-    background: #e8f0ff;
+    background: #6B7280;
 }
 
 .hero h1 {
@@ -57,54 +57,52 @@ nav a:hover {
     color: #555;
 }
 
-/* MOMENT SECTIONS */
-.moment {
+.card {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 60px 50px;
-    gap: 20px;
+    background: white;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-.moment:nth-child(even) {
-    flex-direction: row-reverse;
-    background: #f7f7f7;
+.card img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
 }
 
-.moment .text {
-    flex: 1;
+.card-text {
     padding: 20px;
 }
 
-.moment .text h2 {
-    font-size: 28px;
-    color: #1e6bff;
-    margin-bottom: 15px;
+.card-text h3 {
+    color: #1e88e5;
+    margin-bottom: 10px;
 }
 
-.moment .text p {
-    font-size: 16px;
-    color: #444;
+.card-text button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #1e88e5;
+    border: none;
+    color: white;
+    border-radius: 5px;
 }
 
-.moment .image {
-    flex: 1;
+.footer {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url("images/خواجه\ سکندر\ 2.jpg") center/cover no-repeat;
+    text-align: center;
+    color: white;
+    padding: 60px 20px;
 }
 
-.moment .image img {
-    width: 50%;
-    border-radius: 20px;
-    object-fit: cover;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-}
-
-/* RESPONSIVE */
-@media screen and (max-width: 900px) {
-    .moment {
-        flex-direction: column;
-    }
-
-    .moment:nth-child(even) {
-        flex-direction: column;
-    }
+.footer button {
+    margin-top: 15px;
+    padding: 12px 25px;
+    background: #1e88e5;
+    border: none;
+    color: white;
+    border-radius: 5px;
 }
