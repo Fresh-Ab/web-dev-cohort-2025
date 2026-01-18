@@ -33,6 +33,7 @@ body {
 .hero-text h1 {
     font-size: 60px;
     margin-bottom: 15px;
+    margin-left: 80px
 }
 
 .buttons {
@@ -57,6 +58,7 @@ body {
     height: 320px;
     object-fit: cover;
     border-radius: 50%;
+    margin-right: 80px;
 }
 
 /* Top List */
