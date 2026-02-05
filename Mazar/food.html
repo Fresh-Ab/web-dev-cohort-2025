@@ -1,128 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Mazar Food</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>Mazar Food</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
+
 <body>
 
-<!-- Navbar -->
-<header class="navbar">
-    <h2 class="logo" style="font-size: 30px;">Local Cuisine</h2>
-    <nav>
-        <a href="#index.html"style="font-size: 20px;">Home</a>
-        <a href="#attractions.html" style="font-size: 20px;">Attractions</a>
-        <a href="#food.html" style="font-size: 20px;">Food</a>
-        <a href="#gallery.html" style="font-size: 20px;">Gallery</a>
+<!--NAVBAR-->
+    <header class="nav container">
+    <h2 class="logo">Local Cuisine</h2>
+    <nav class="navbar">
+        <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Attractions</a></li>
+        <li><a href="#">Food</a></li>
+        <li><a href="#">Gallery</a></li>
+        </ul>
     </nav>
-</header>
+    </header>
 
-<!-- Hero Section -->
-<section class="hero">
-    <div class="hero-text">
-        <h1>Famous<br>Mazar Cuisine</h1>
-        <p style="font-size:25px;">Carrying centuries of tradition in every bite, this cuisine invites you to discover flavors that linger long after the meal ends.</p>
-        <div class="buttons">
-            <button class="btn primary">Food Menu</button>
+<!--HERO-->
+    <section class="hero container">
+
+    <div class="hero-box">
+        <div class="hero-text">
+        <h1>Famous Mazar <br>Cuisines</h1>
+        <p>Carrying centuries of tradition in every bite</p>
+        <button class="btn">View more</button>
         </div>
+
+        <img class="hero-img"
+        src="images/kbb.jpg">
     </div>
+    </section>
 
-    <div class="hero-image">
-        <img src="images/kbb.jpg">
-    </div>
-</section>
-
-<!-- Top List -->
-<section class="top-list" style="font-size: 20px;">
-    <h2>Top List</h2>
-
-    <div class="cards">
-        <div class="card">
-            <img src="images/Qabili.jpg">
-            <h3>Qabli Palaw</h3>
+<!--TOP MENU-->
+    <section class="menu container">
+        <h2 class="title">TOP MENU</h2>
+        <div class="cards">
+            <div class="card">
+            <img src="images/Qabili1.jpg">
+            <h3>Qabili Plaw</h3>
             <p>A signature dish of rice cooked with lamb, raisins, and carrots.</p>
-            <div class="buttons">
-            <button class="btn primary">View more</button>
-        </div>
-        </div>
+            <button class="btn small">See more</button>
+            </div>
 
-        <div class="card">
+            <div class="card">
             <img src="images/Gol khanom.jpg">
             <h3>Ay Khanum</h3>
-            <P>Steamed dumplings filled with spiced meat and vegetables.</P>
-            <div class="buttons">
-            <button class="btn primary">View more</button>
-        </div>
-        </div>
+            <p>Steamed dumplings filled with spiced meat and vegetables.</p>
+            <button class="btn small">See more</button>
+            </div>
 
-        <div class="card">
+            <div class="card">
             <img src="images/Bolani.jpg">
             <h3>Bolani</h3>
-            <p>A popular, crispy flatbread stuffed with potatoes, leeks, and lentils.</p>
-            <div class="buttons">
-            <button class="btn primary">View more</button>
+            <p>A popular, crispy flatbread stuffed with potatoes or leeks.</p></p>
+            <button class="btn small">See more</button>
+            </div>
         </div>
-        </div>
-            
-        </div>
-    </div>
-</section>
+    </section>
 
-<!-- Fries Section -->
-<section class="fries">
+<!-- BIRTHDAY SECTION -->
+<section class="fries container">
+  <div class="fries-inner">
+    <h2>Best Kebabs </h2>
     <img src="images/کباب.jpg">
-    <div>
-        <h2>Best Kebabs forever</h2>
-        <P>Various, juicy, flame-grilled meat skewers</P>
-        <p style="font-size: 20px;"></p>
-    </div>
+    <p>Various, juicy, flame-grilled meat skewers</p>
+    <button class="btn">See more</button>
+  </div>
 </section>
 
-<!-- ================= FOOTER ================= -->
-    <footer class="site-footer" id="footer">
-        <div class="footer-container">
-            <!-- Brand Column -->
-            <div class="footer-brand">
-                <div class="site-logo">
-                    <div class="ms-badge">M<span>S</span></div>
-                    <div class="logo-name">Mazar-e-<span>Sharif</span></div>
-                </div>
-                <p class="footer-bio">
-                    The official tourism guide to the heart of Northern Afghanistan. 
-                    Discover the history, culture, and beauty of the Noble Shrine.
-                </p>
-            </div>
-
-            <!-- Team Column -->
-            <div class="footer-links">
-                <h4>Mazar Team</h4>
-                <ul class="team-list">
-                    <li><strong>Farkhonda Komak:</strong> Home page Section</li>
-                    <li><strong>Adela Abbasi:</strong> Attractions Section</li>
-                    <li><strong>Freshta Abbasi:</strong> Food Section</li>
-                    <li><strong>Nazi:</strong> Gallery Section</li>
-                </ul>
-            </div>
-
-            <!-- Explore Links Column -->
-            <div class="footer-links">
-                <h4>Explore Provinces</h4>
-                <ul>
-                    <li><a href="#">Kabul Guide</a></li>
-                    <li><a href="#">Herat Guide</a></li>
-                    <li><a href="#">Badakhshan Guide</a></li>
-                    <li><a href="#">Bamyan Guide</a></li>
-                    <li><a href="#">Ghazni Guide</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- Copyright -->
-        <div class="footer-bottom">
-            <p>&copy; 2026 Tourism Afghanistan - Collaborative Group Project.</p>
-        </div>
-    </footer>
+<!-- FOOTER -->
+<footer class="footerf">
+    <p>Designed by: Freshta Abbasi</p>
+</footer>
 
 </body>
 </html>
