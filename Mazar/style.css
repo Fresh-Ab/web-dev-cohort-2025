@@ -153,7 +153,7 @@ h1, h2, h3, h4 {
     font-size: 1.2rem;
 }
 
-.page-index .go-btn:hover .circle-icon {
+.page-index .go-btn:hover  .circle-icon {
     background: var(--coral);
     transform: rotate(90deg);
 }
@@ -216,7 +216,7 @@ h1, h2, h3, h4 {
 .page-index .left-arrow { left: 20px; }
 .page-index .right-arrow { right: 20px; }
 
-.page-index .arrow:hover {
+ .page-index .arrow:hover {
     background: var(--blue);
     transform: translateY(-50%) scale(1.1);
 }
@@ -228,7 +228,7 @@ h1, h2, h3, h4 {
 }
 
 /* Text Animations */
-.page-index .anim-word, .anim-word-special {
+.page-index .anim-word, .page-index .anim-word-special {
     display: inline-block;
     opacity: 0;
     transform: translateY(20px);
@@ -311,7 +311,7 @@ h1, h2, h3, h4 {
 .page-index .vibe-card:hover .vibe-overlay {
     background: linear-gradient(to top, rgba(31, 106, 225, 0.7), transparent);
 }
-.page-index .vibe-card:hover .vibe-arrow {
+.page-index .vibe-card:hover  .vibe-arrow {
     transform: translateX(10px);
     background-color: var(--coral);
 }
@@ -484,8 +484,8 @@ h1, h2, h3, h4 {
     font-size: 1.3rem;
 }
 
-.page-index .team-list, .footer-links ul { list-style: none; }
-.page-index .team-list li, .footer-links ul li { margin-bottom: 15px; color: #ccc; font-size: 0.9rem; }
+.page-index .team-list, .page-index .footer-links ul { list-style: none; }
+.page-index .team-list li, .page-index .footer-links ul li { margin-bottom: 15px; color: #ccc; font-size: 0.9rem; }
 .page-index .team-list li strong { color: var(--white); display: block; font-weight: 700; margin-bottom: 2px;}
 .page-index .footer-links ul li a { text-decoration: none; color: #aaa; transition: 0.3s; }
 .page-index .footer-links ul li a:hover { color: var(--coral); }
@@ -500,7 +500,7 @@ h1, h2, h3, h4 {
 }
 
 /* --- 9. RESPONSIVE MEDIA QUERIES --- */
- @media (max-width: 992px) {
+@media (max-width: 992px) {
     /* Hero Section */
     .page-index .main-box {
         flex-direction: column;
