@@ -101,7 +101,6 @@ img {
 
 /* =========================
    Tablet Responsive
-========================= */
 @media (max-width: 900px) {
     .attraction-card {
         grid-template-columns: 220px 1fr;
@@ -114,7 +113,6 @@ img {
 
 /* =========================
    Mobile Responsive
-========================= */
 @media (max-width: 600px) {
     .attraction-card {
         grid-template-columns: 1fr;
